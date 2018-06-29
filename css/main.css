@@ -1,0 +1,192 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-size: 16px; }
+
+.grey-3 {
+  background-color: #ccc; }
+
+.grey-2 {
+  background-color: #ddd; }
+
+.grey-1 {
+  background-color: #eee; }
+
+.white {
+  background-color: #fff; }
+
+.fullheight {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+
+.list h1 {
+  font-size: 0.75rem;
+  line-height: 2rem;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.38);
+  padding: 0.25rem 0.25rem 0 0.85rem;
+  margin: 0; }
+.list .item {
+  padding: 0.25rem 0.25rem 0rem 0.25rem; }
+  .list .item .inner {
+    padding: 0.4rem 0.6rem;
+    position: relative;
+    border-radius: 0.25rem;
+    background-color: transparent;
+    box-sizing: border-box;
+    box-shadow: inset 0px 0px 1px 0px rgba(0, 0, 0, 0.1);
+    transition: all 0.25s ease; }
+    .list .item .inner:hover {
+      box-shadow: inset 0px 0px 2px 0px rgba(0, 0, 0, 0.5); }
+    .list .item .inner h2 {
+      font-size: 0.75rem;
+      line-height: 1.2rem;
+      font-weight: 500;
+      padding: 0;
+      margin: 0;
+      height: 1.2rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      z-index: 999;
+      position: relative;
+      color: rgba(0, 0, 0, 0.62); }
+      .list .item .inner h2 a {
+        text-decoration: none; }
+        .list .item .inner h2 a:hover {
+          color: #000; }
+    .list .item .inner table th {
+      font-weight: 500;
+      font-size: 0.75rem;
+      line-height: 1.5rem;
+      color: rgba(0, 0, 0, 0.5);
+      padding: 0.25rem; }
+    .list .item .inner table td {
+      font-weight: 500;
+      font-size: 0.75rem;
+      line-height: 1.5rem;
+      color: black;
+      padding: 0.25rem; }
+    .list .item .inner .vendor {
+      font-size: 0.75rem;
+      line-height: 1.2rem;
+      color: rgba(0, 0, 0, 0.5);
+      z-index: 999;
+      position: relative; }
+    .list .item .inner .location {
+      font-size: 0.75rem;
+      line-height: 1.2rem;
+      color: rgba(0, 0, 0, 0.5);
+      z-index: 999;
+      position: relative; }
+    .list .item .inner .category {
+      font-size: 0.75rem;
+      line-height: 1.2rem;
+      z-index: 999;
+      position: relative; }
+    .list .item .inner .valuebg {
+      line-height: 1.2rem;
+      font-size: 0.75rem;
+      text-align: left;
+      z-index: 999;
+      position: relative;
+      color: rgba(0, 0, 0, 0.38); }
+    .list .item .inner .value {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 1;
+      background-color: rgba(0, 0, 0, 0.1); }
+  .list .item.active .inner {
+    background-color: #e0f7cf; }
+  .list .item.pdu .inner {
+    background-color: rgba(139, 224, 77, 0.3); }
+    .list .item.pdu .inner .value {
+      background-color: rgba(139, 224, 77, 0.6); }
+  .list .item.sensor .inner {
+    background-color: rgba(255, 200, 3, 0.4); }
+    .list .item.sensor .inner .value {
+      background-color: rgba(255, 200, 3, 0.7); }
+  .list .item.cooling .inner {
+    background-color: rgba(47, 196, 252, 0.3); }
+    .list .item.cooling .inner .value {
+      background-color: rgba(47, 196, 252, 0.6); }
+  .list .item.ups .inner {
+    background-color: rgba(161, 85, 184, 0.25); }
+    .list .item.ups .inner .value {
+      background-color: rgba(161, 85, 184, 0.5); }
+  .list .item.group .inner {
+    background-color: rgba(0, 0, 0, 0.1); }
+    .list .item.group .inner .value {
+      background-color: rgba(0, 0, 0, 0.1); }
+  .list .item.active h2 {
+    font-weight: 700;
+    color: #000; }
+  .list .item.active .valuebg {
+    color: #000; }
+.list.col-9 .item .inner, .list.col-10 .item .inner, .list.col-11 .item .inner {
+  padding: 0.4rem 0.8rem; }
+  .list.col-9 .item .inner .valuebg, .list.col-10 .item .inner .valuebg, .list.col-11 .item .inner .valuebg {
+    line-height: 2.4rem;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.5); }
+  .list.col-9 .item .inner h2, .list.col-10 .item .inner h2, .list.col-11 .item .inner h2 {
+    font-weight: 700; }
+
+.detail h1 {
+  font-size: 0.75rem;
+  line-height: 2rem;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.75);
+  padding: 0.25rem 0.25rem 0 0.85rem;
+  margin: 0; }
+.detail .item {
+  padding: 0.25rem 0.25rem 0rem 0.25rem; }
+  .detail .item .inner {
+    padding: 0.4rem 0.6rem;
+    position: relative;
+    border-radius: 0.25rem;
+    background-color: rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+    box-shadow: inset 0px 0px 1px 0px rgba(0, 0, 0, 0.1);
+    transition: all 0.25s ease; }
+    .detail .item .inner h2 {
+      font-size: 0.75rem;
+      line-height: 1.2rem;
+      font-weight: 700;
+      padding: 0;
+      margin: 0;
+      height: 1.2rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      z-index: 999;
+      position: relative; }
+      .detail .item .inner h2 a {
+        text-decoration: none; }
+        .detail .item .inner h2 a:hover {
+          color: #000; }
+    .detail .item .inner table th {
+      font-weight: 500;
+      font-size: 0.75rem;
+      line-height: 1.5rem;
+      color: rgba(0, 0, 0, 0.25);
+      padding: 0.25rem; }
+    .detail .item .inner table td {
+      font-weight: 500;
+      font-size: 0.75rem;
+      line-height: 1.5rem;
+      color: black;
+      padding: 0.25rem; }
+.detail.col-9 .item .inner, .detail.col-10 .item .inner {
+  padding: 0.4rem 0.8rem; }
+  .detail.col-9 .item .inner .valuebg, .detail.col-10 .item .inner .valuebg {
+    line-height: 2.4rem;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.5); }
